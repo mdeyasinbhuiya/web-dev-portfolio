@@ -106,7 +106,7 @@ border: none;
 .section-title{
     font-size: 35px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     text-align: center;
 }
 .section-discription{
@@ -173,12 +173,13 @@ border: none;
     
     
 }
-.section-title{
-    margin-bottom: 110px;
+.section-title-resume{
+    margin-bottom: 115px;
     font-family: "Open Sans", serif;
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    text-align: center;
 }
 .study-title , .experience-title{
     margin-bottom: 30px;
