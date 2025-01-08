@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* font-family: "Open Sans", serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat:no-repeat;
+    background-position: left top,right bottom;
+    background-color: #FFF8F3;
+}
+.navigation{
+    display: flex;
+    font-family: "open sans",serif;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 175px 0px 175px; padding-top: 20px;
+}
+.btn-primary{
+background-color:#FD6E0A ;
+color: white;
+height: 64px;
+width: 164px;
+font-size: 20px;
+font-weight: bold;
+border-radius: 5px;
+
+border: none;
+
+}
+.dark-2{
+    color: #474747;
+    font-size: 20px;
+}
+.title-name{
+    font-size: 43px;
+    font-weight: 800;
+}
+.title-name-modi{
+    color: #FD6E0A;
+}
+.navigation ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+.navigation li a{
+    text-decoration: none;
+    
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    
+}
+/* navigation complete */
+/* banner start */
+.banner-profile-pic{
+    width: 584px;
+    /* height: 676px; */
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+    margin-left: 175px ;
+    margin-right: 40px;
+    /* align-items: center; */
+}
+.banner-content{
+    width: 570px;
+    /* margin-top: 100px; */
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-discription{
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+/* banner css complete */
+/* section css start */
+.section-one{
+    width: 1140px;
+    height: 550px;
+    background-color:#FFF8F3 ; 
+    margin: 130px auto;
+    text-align: center;
+    display: flex;
+}
+.about-box{
+    width: 827px;
+    height: 287px;
+   margin: auto;
+ background-color: white;
+ border: 2px dashed black;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-discription{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px; 
+    line-height: 30px;
+    text-align: center;
+    
+}
+.about-info-header{
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 60px;
+    
+}
+.about-info{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+/* section one complete */
+/* section two start */
+.section-two{
+    width: 1140px;
+    margin:  auto;
+    
+
+}
+.card-boxes{
+    display: flex;
+    gap: 24px;
+
+}
+.card-box{
+    height: 300px;
+    width: 267px;
+    padding: 30px 30px;
+    box-shadow: 0 2px 50px 0 rgba(0, 0, 0,0.6);
+    margin-top: 50px;
+}
+.card-box-title{
+    margin-top: 30px;
+}
+.card-box-discription{
+    margin-top: 20px;
+    width: 206px;
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+/* section two complete */
+/* section three start */
+.resume{
+   
+    display: flex;
+    gap:30px;
+    font-family: "Open Sans", serif;
+}
+.section-three{
+    width: 1140px;
+    margin: 130px auto;
+    
+    
+}
+.section-title{
+    margin-bottom: 110px;
+    font-family: "Open Sans", serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.study-title , .experience-title{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.study-info-title , .experience-info-title{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+.college-name ,.company-name{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight:600;
+    color: #757575;
+}
+.study-discription ,.experience-discription{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+hr{
+    margin:30px 0px
+}
+.study-info ,.experience-info{
+    width: 511px;
+    height: 175;
+}
+.btn-2{
+    text-align: center;
+    margin: 50px;
+}
+/* section three complete */
+/* footer start */
+footer{
+   
+   
+    margin: auto;
+    font-family: "Open Sans", serif;
+    gap: 100px;
+    background-color:#FFF8F3;
+}
+.article-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 28px;
+}
+.article-discription{
+    width: 562px;
+    font-size: 18px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+input{
+    width: 461px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 461px;
+    height: 150px;
+    margin-bottom: 24px;
+    padding: 10px;
+}
+.end-form{
+    display: flex;
+    width: 1140px;
+   margin: auto; 
+    height: 780px;
+    gap: 50px
+    
+   
+}
+article{
+    margin-top: 130px;
+}
+a{
+    margin-right: 20px;
+}
+/* footer complete */
